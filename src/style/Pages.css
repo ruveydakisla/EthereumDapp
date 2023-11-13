@@ -1,0 +1,92 @@
+.main {
+  background-color: #f2ffe9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #a6cf98;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15%;
+  border-radius: 8px;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.TextEx {
+  font-size: 16px;
+  color: #557c55; /* Renk paletinden uygun bir renk */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Titles {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #fa7070; /* Renk paletinden uygun bir renk */
+  font-weight: bold; /* İstenirse kalın yazı stili */
+}
+
+.label {
+  margin: 30px;
+
+  font-size: 18px;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #557c55;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #557c55;
+  color: #f5f7f8;
+  margin: 15px 0;
+  padding: 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 0.5;
+  transition: background-color 0.3s ease;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #fa7070;
+}
+
+.get-button {
+  background-color: #fa7070;
+  color: #f5f7f8;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.get-button:hover {
+  background-color: #495e57;
+}
+
+.number-display {
+  margin-top: 20px;
+  font-size: 18px;
+}

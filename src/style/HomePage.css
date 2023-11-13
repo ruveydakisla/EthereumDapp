@@ -1,0 +1,42 @@
+.main {
+  background-color: #f2ffe9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Link-container {
+  text-align: center;
+}
+
+.Link {
+  background-color: #a6cf98;
+  color: #557c55;
+  padding: 40px;
+  /*Örneğin,budeğerleriartırabilirsiniz*/
+  margin: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 0.5;
+  /*Örneğin,budeğeriartırabilirsiniz*/
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  /* Buton içindeki metni ortala */
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+.Link:hover {
+  background-color: #fa7070;
+  color: #f5f7f8;
+}
+.Link.fixed-Link {
+  position: fixed;
+  bottom: 50px;
+}
